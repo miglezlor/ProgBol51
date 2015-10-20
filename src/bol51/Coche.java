@@ -15,7 +15,7 @@ public class Coche {
     }
     
     public void setVelocidade(int velocidade){
-        this.velocidade=velocidade;
+        
     }
     
     public int getVelocidade(){
@@ -24,12 +24,12 @@ public class Coche {
     }
     
     public void frenar(int menos){
-          velocidade=this.velocidade+menos;
+          velocidade=(velocidade+menos);
     }
         
     public void acelerar (int valor){
     
-           velocidade=this.velocidade+valor;
+           velocidade=(velocidade+valor);
     }
     
     
